@@ -1,0 +1,29 @@
+ul li{
+    list-style: none;
+
+}
+.menu{
+    width: 2000px;
+    height: 60px;
+    background-color: rgb(185, 237, 207);
+}
+.menu ul li{
+    float: left;
+
+    margin-right: 50px;
+    margin-top: 20px;
+
+    position: relative;
+}
+.menu ul li ul{
+    width: 120px;
+    height: 200px;
+    margin-left: -40px;
+    background-color: #5aae92;
+    display: none;
+
+    position: absolute;
+}
+.menu ul li:hover ul{
+    display: block;
+}
